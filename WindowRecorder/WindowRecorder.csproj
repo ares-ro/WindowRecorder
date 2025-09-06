@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\folder_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <None Remove="Resources\folder_eye_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <None Remove="Resources\folder_open_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <None Remove="Resources\fonts\SeoulNamsanB.ttf" />
+    <None Remove="Resources\fonts\SeoulNamsanEB.ttf" />
+    <None Remove="Resources\fonts\SeoulNamsanL.ttf" />
+    <None Remove="Resources\fonts\SeoulNamsanM.ttf" />
+    <None Remove="Resources\fonts\SeoulNamsanvert.ttf" />
+    <None Remove="Resources\fonts\경기천년바탕OTF_Bold.otf" />
+    <None Remove="Resources\fonts\경기천년바탕OTF_Regular.otf" />
+    <None Remove="Resources\fonts\경기천년제목OTFV_Bold.otf" />
+    <None Remove="Resources\fonts\경기천년제목OTF_Bold.otf" />
+    <None Remove="Resources\fonts\경기천년제목OTF_Light.otf" />
+    <None Remove="Resources\fonts\경기천년제목OTF_Medium.otf" />
+    <None Remove="Resources\open_in_new_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <None Remove="Resources\refresh_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ScreenRecorderLib" Version="6.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\folder_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <Resource Include="Resources\folder_eye_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <Resource Include="Resources\folder_open_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <Resource Include="Resources\fonts\SeoulNamsanB.ttf" />
+    <Resource Include="Resources\fonts\SeoulNamsanEB.ttf" />
+    <Resource Include="Resources\fonts\SeoulNamsanL.ttf" />
+    <Resource Include="Resources\fonts\SeoulNamsanM.ttf" />
+    <Resource Include="Resources\fonts\SeoulNamsanvert.ttf" />
+    <Resource Include="Resources\fonts\경기천년바탕OTF_Bold.otf" />
+    <Resource Include="Resources\fonts\경기천년바탕OTF_Regular.otf" />
+    <Resource Include="Resources\fonts\경기천년제목OTFV_Bold.otf" />
+    <Resource Include="Resources\fonts\경기천년제목OTF_Bold.otf" />
+    <Resource Include="Resources\fonts\경기천년제목OTF_Light.otf" />
+    <Resource Include="Resources\fonts\경기천년제목OTF_Medium.otf" />
+    <Resource Include="Resources\open_in_new_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+    <Resource Include="Resources\refresh_24dp_434343_FILL0_wght300_GRAD0_opsz24.png" />
+  </ItemGroup>
+
+</Project>
